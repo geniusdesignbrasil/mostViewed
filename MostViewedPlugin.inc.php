@@ -52,7 +52,7 @@ class MostViewedPlugin extends GenericPlugin
 				'mostViewedArticles',
 				$request->getBaseUrl().'/'.$this->getPluginPath().'/css/mostViewed.css'
 			);
-			HookRegistry::register('Templates::Index::journal', array($this, 'mostViewedContent'));
+			HookRegistry::register('Templates::Common::Sidebar', array($this, 'mostViewedContent'));
 		}
 
 		return $success;
