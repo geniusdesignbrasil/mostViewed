@@ -12,8 +12,8 @@
 		}
 	</style>
 {/if}
-<div class="most-viewed obj_article_summary">
-	<h2 class="most-viewed-headline">{if $mostReadHeadline[$currentLocale]}{$mostReadHeadline[$currentLocale]}{else}{translate key="plugins.generic.most.viewed.headline"}{/if}</h2>
+<div class="pkp_block most-viewed obj_article_summary">
+	<h3 class="most-viewed-headline title">{if $mostReadHeadline[$currentLocale]}{$mostReadHeadline[$currentLocale]}{else}{translate key="plugins.generic.most.viewed.headline"}{/if}</h3>
 	{if $mostReadArticles && sizeof($mostReadArticles)>0}
 		{foreach from=$mostReadArticles item="article"}
 			<div class="most-viewed-content">
