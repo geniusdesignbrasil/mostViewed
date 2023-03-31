@@ -12,6 +12,13 @@
 		}
 	</style>
 {/if}
+
+{literal}
+	<style>
+		.most-viewed-list {list-style: none; padding-left: 0;}
+	</style>
+{/literal}
+
 <div class="pkp_block most-viewed obj_article_summary">
 	<h3 class="most-viewed-headline title">{if $mostReadHeadline[$currentLocale]}{$mostReadHeadline[$currentLocale]}{else}{translate key="plugins.generic.most.viewed.headline"}{/if}</h3>
 	{if $mostReadArticles && sizeof($mostReadArticles)>0}
@@ -27,7 +34,7 @@
 					</a>
 				</h4>
 				<p class="most-viewed-info">
-					<span class="most-viewed-author">{$article['articleAuthor']|strip_unsafe_html}</span><br/>
+					<span class="most-viewed-author">{$article['articleAuthor']|strip_unsafe_html}</span>
 					<span class="badge"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;{$article['metric']|strip_unsafe_html}</span>
 				</p>
 			</li>
