@@ -15,7 +15,7 @@
 <div class="pkp_block most-viewed obj_article_summary">
 	<h3 class="most-viewed-headline title">{if $mostReadHeadline[$currentLocale]}{$mostReadHeadline[$currentLocale]}{else}{translate key="plugins.generic.most.viewed.headline"}{/if}</h3>
 	{if $mostReadArticles && sizeof($mostReadArticles)>0}
-		<ul class="most-viewed-list>
+		<ul class="most-viewed-list">
 		{foreach from=$mostReadArticles item="article"}
 			<li class="most-viewed-content">
 				<h4 class="most-viewed-title">
