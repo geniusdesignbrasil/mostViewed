@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-31T08:53:00+03:00\n"
+"PO-Revision-Date: 2023-03-31T08:53:00+03:00\n"
+"Language: \n"
+
+msgid "admin.scheduledTask.mostViewed"
+msgstr "mostViewed"
+
+msgid "plugins.generic.most.viewed.title"
+msgstr "Artigos mais vistos"
+
+msgid "plugins.generic.most.viewed.desc"
+msgstr "Exibe os artigos mais vistos e baixados na barra lateral do periódico."
+
+msgid "plugins.generic.most.viewed.headline"
+msgstr "Artigos mais vistos"
+
+msgid "plugins.generic.most.viewed.head"
+msgstr "Cabeçalho"
+
+msgid "plugins.generic.most.viewed.head.desc"
+msgstr "O título do cabeçalho que deve ser exibido acima da lista de artigos mais vistos. Deixe o campo em branco para exibir <em>Most Read Articles</em>."
+
+msgid "plugins.generic.most.viewed.days"
+msgstr "Número de dias"
+
+msgid "plugins.generic.most.viewed.days.desc"
+msgstr "Inclui visualizações e downloads desse número de dias. Inclui visualizações e downloads desse número de dias. Por exemplo, insira 30 para obter os artigos mais lidos nos últimos 30 dias."
+
+msgid "plugins.generic.most.viewed.amount"
+msgstr "Número de artigos"
+
+msgid "plugins.generic.most.viewed.amount.desc"
+msgstr "Quantos artigos devem ser exibidos."
+
+msgid "plugins.generic.most.viewed.years"
+msgstr "Excluir artigos antigos"
+
+msgid "plugins.generic.most.viewed.years.desc"
+msgstr "Exclua artigos publicados há mais de um número de anos. Por exemplo, insira 2 se desejar incluir apenas artigos publicados nos últimos dois anos. Deixe em branco para incluir todos os artigos publicados."
+
+msgid "plugins.generic.most.viewed.position"
+msgstr "Local de exibição"
+
+msgid "plugins.generic.most.viewed.position.desc"
+msgstr "Se você habilitar esta configuração, o plug-in tentará exibir os artigos mais lidos na parte inferior da página inicial do seu periódico. Isso pode não funcionar em todos os temas."
+
+msgid "plugins.generic.most.viewed.position.check"
+msgstr "Tente mover os artigos mais lidos para o final da página inicial do periódico"
